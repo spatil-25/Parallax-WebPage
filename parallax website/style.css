@@ -1,0 +1,74 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+.pimg1 {
+  background-image: url(image/p2.webp);
+  min-height: 100%;
+}
+
+.pimg2 {
+  background-image: url(image/guk.jpg);
+  min-height: 400px;
+}
+
+.pimg3 {
+  background-image: url(image/360_F_261403093_MdS0aTqE2f0qO4nexulvnc2pOKCZY2Kk.jpg);
+  min-height: 400px;
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  opacity: 0.8;
+  background-position: center; /*<-- background-pos center will display the center part of image on the screen*/
+  background-size: cover; /*<-- this size property will set the image fully in the div*/
+  background-repeat: no-repeat; /*<-- By this property backround image will not be repeated*/
+  background-attachment: fixed; /*<<-- this property is imp bcz this will make the parallax effect*/
+}
+
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.section-light {
+  background-color: #fff;
+  color: rgb(43, 39, 39);
+}
+
+.section-dark {
+  background-color: rgb(41, 39, 39);
+  color: #eee;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.ptext .border {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+}
+
+.ptext .borderwhite {
+  background-color: oldlace;
+  padding: 20px;
+}
